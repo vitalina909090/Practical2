@@ -45,7 +45,8 @@ int main()
     //char* patronymic = new char[sizeof("patronymic") / sizeof(char) + 1];
     //strcat_s(surname, sizeof("surname") / sizeof(char) + 1, "surname");
     People example1();
-    People example2(12345, "Легеза", "Виталина", "Андреевна"/*, 09, 12, 2006*/);
+    Date data(0, 0, 0);
+    People example2(12345, "Легеза", "Виталина", "Андреевна", data);
 
     example2.ounput();
 
